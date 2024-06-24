@@ -1,0 +1,33 @@
+.container {
+    padding: 0px 10px 5px;
+    border: 3px solid #0f0f0f;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.73);
+    backdrop-filter: blur(20px);
+}
+.formControlLabel {
+    color: #0f0f0f;
+}
+.forgotPasswordContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+.forgotPassword {
+    color: #0f0f0f;
+    transition: 0.5s;
+    font-style: italic;
+}
+.forgotPassword:hover {
+    text-decoration: #ff0000;
+}
+.noAccount {
+    color: #0f0f0f;
+}
+.signUp {
+    text-decoration: underline;
+    color: #0f0f0f;
+    transition: 0.5s;
+}
+.signUp:hover {
+    text-decoration: #ff0000;
+}
