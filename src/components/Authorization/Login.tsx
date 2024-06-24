@@ -113,7 +113,7 @@ const Login: FC = () => {
                         />
                     </FormControl>
 
-                    <Grid container justify="center" alignItems="center">
+                    <Grid container justifyContent="center" alignItems="center">
                         <Grid item xs={6} className={styles.formControlLabel}>
                             <FormControlLabel
                                 label={CONSTANTS.REMEMBER_ME}
